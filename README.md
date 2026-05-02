@@ -1,18 +1,17 @@
 ## Hi there 👋
 
+### <a href="https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2/">Santiago A. Ruiz Diaz</a> | IT & Cybersecurity Portfolio
 
-[https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418](https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2)
-<!--
-**Santi4g0RD/santi4g0rd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I’m passionate about cybersecurity and driven to solve real-world security challenges through hands-on projects. With a focus on threat detection, incident response, and OT/ICS environments, I build and test practical solutions that reflect today’s evolving threat landscape.
 
-Here are some ideas to get you started:
+🔍 My work focuses on:
+- Threat detection & log analysis (SIEM use cases)
+- Incident response & attack simulation
+- OT/ICS & Building Management System (BMS) security
+- Vulnerability assessment & remediation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Feel free to explore my projects to see how I approach security from both operational and technical perspectives.
+
+
+
+
