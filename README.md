@@ -12,6 +12,11 @@ I’m passionate about cybersecurity and driven to solve real-world security cha
 
 Feel free to explore my projects to see how I approach security from both operational and technical perspectives.
 
-
-
+## 🛡️ Vulnerability Management Projects (Nessus + Azure)  
+- Deployed and configured virtual machines in Azure to simulate an enterprise environment  
+- Conducted authenticated and unauthenticated vulnerability scans using Nessus  
+- Analyzed and prioritized findings using CVSS scoring and asset exposure  
+- Validated vulnerabilities and reduced false positives through manual review  
+- Performed remediation (patching, configuration changes) and verified fixes via re-scanning  
+- Documented results and risk posture in a format aligned with SOC and cloud security operations  
 
