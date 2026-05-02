@@ -20,3 +20,4 @@ Feel free to explore my projects to see how I approach security from both operat
 - Performed remediation (patching, configuration changes) and verified fixes via re-scanning  
 - Documented results and risk posture in a format aligned with SOC and cloud security operations  
 
+https://www.notion.so/Project-Implementing-A-Full-VM-Program-34c3058af3f18008a325f60124b05142
