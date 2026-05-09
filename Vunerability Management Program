@@ -1,9 +1,0 @@
-
-### Vulnerability Management Program Implementation
-
-- Deployed and configured virtual machines in Azure to simulate an enterprise environment
-- Conducted authenticated and unauthenticated vulnerability scans using Nessus
-- Analyzed and prioritized findings using CVSS scoring and asset exposure
-- Validated vulnerabilities and reduced false positives through manual review
-- Performed remediation (patching, configuration changes) and verified fixes via re-scanning
-- Documented results and risk posture in a format aligned with SOC and cloud security operations
