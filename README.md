@@ -15,3 +15,7 @@ Feel free to explore my projects to see how I approach security from both operat
 ## 🛡️ Vulnerability Management Projects (Nessus + Azure)  
 
 ### <a href="https://github.com/Santi4g0RD/Vulnerability-Management-Program-Implementation/tree/main"> Vulnerability Management Program </a>
+
+## 🚨 Threat Hunting and Security Operations
+
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-TOR">Threat Hunting Scenario (Tor Browser Usage)</a>
