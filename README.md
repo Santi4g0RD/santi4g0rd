@@ -19,3 +19,4 @@ Feel free to explore my projects to see how I approach security from both operat
 ## 🚨 Threat Hunting and Security Operations
 
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-TOR">Threat Hunting Scenario (Tor Browser Usage)</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Signal-After-Noise">Threat Hunt: Signal After The Noise (Post-Intrusion Hunt)</a>
