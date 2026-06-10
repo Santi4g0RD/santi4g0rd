@@ -11,11 +11,13 @@ I'm passionate about cybersecurity and driven to solve real-world security chall
 - Incident response & attack simulation
 - OT/ICS & Building Management System (BMS) security
 - Vulnerability assessment & remediation
+- STIG compliance & system hardening
+
 Feel free to explore my projects to see how I approach security from both operational and technical perspectives.
 
 ## 🔒 DISA STIG Compliance & System Hardening
 
-- <a href="https://github.com/Santi4g0RD/stig-project">DISA STIG Compliance & System Hardening — Windows 11 PowerShell Automation (Azure VM)</a>
+- <a href="https://github.com/Santi4g0RD/stig-project">DISA STIG: System Hardening — 12 Windows 11 Controls Automated with PowerShell on Azure</a>
 
 ## 🛡️ Vulnerability Management Projects (Nessus + Azure)
 
