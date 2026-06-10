@@ -15,9 +15,16 @@ I'm passionate about cybersecurity and driven to solve real-world security chall
 
 Feel free to explore my projects to see how I approach security from both operational and technical perspectives.
 
+---
+
 ## 🔒 DISA STIG Compliance & System Hardening
 
 ### <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project"> DISA STIG: System Hardening — 12 Windows 11 Controls Automated with PowerShell on Azure </a>
+
+**Author:** Santiago Abel Ruiz Diaz
+**Platform:** Microsoft Azure
+**Environment:** Windows 11 VM
+**Date:** 2026-06-10
 
 Implemented and verified 12 DISA STIG security controls on a Windows 11 Azure VM using PowerShell. Each script targets a specific STIG finding, applies the required configuration via registry or security policy, and was validated before and after execution.
 
@@ -35,6 +42,213 @@ Implemented and verified 12 DISA STIG security controls on a Windows 11 Azure VM
 | 10 | WN11-SO-000070 | Security Options | UAC credential prompt on secure desktop | ✅ Pass |
 | 11 | WN11-CC-000030 | Component Config | Disable Autoplay for non-volume devices | ✅ Pass |
 | 12 | WN11-SO-000075 | Security Options | Block unencrypted passwords to SMB servers | ✅ Pass |
+
+---
+
+## Audit & Logging
+
+### WN11-AU-000500 — Application Event Log Size
+
+**Rule:** Application event log must be at least 32768 KB (32 MB).
+**Registry:** `HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application`
+**Value:** `MaxSize = 32768`
+**Before:** Registry key did not exist (path not found)
+**After:** `MaxSize = 32768`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AU-000500-fail.png)
+
+**Script:** [STIG-ID-WN11-AU-000500.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AU-000500.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AU-000500-pass.png)
+
+---
+
+### WN11-AU-000505 — Security Event Log Size
+
+**Rule:** Security event log must be at least 1024000 KB (1 GB).
+**Registry:** `HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Security`
+**Value:** `MaxSize = 1024000`
+**Before:** Registry key did not exist (path not found)
+**After:** `MaxSize = 1024000`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AU-000505-fail.png)
+
+**Script:** [STIG-ID-WN11-AU-000505.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AU-000505.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AU-000505-pass.png)
+
+---
+
+### WN11-AU-000510 — System Event Log Size
+
+**Rule:** System event log must be at least 32768 KB (32 MB).
+**Registry:** `HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\System`
+**Value:** `MaxSize = 32768`
+**Before:** Registry key did not exist (path not found)
+**After:** `MaxSize = 32768`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AU-000510-fail.png)
+
+**Script:** [STIG-ID-WN11-AU-000510.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AU-000510.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AU-000510-pass.png)
+
+---
+
+## Account Policy
+
+### WN11-AC-000005 — Account Lockout Duration
+
+**Rule:** Account lockout duration must be 15 minutes or greater.
+**Method:** secedit — `LockoutDuration = 15`
+**Before:** Lockout duration not configured (0 minutes)
+**After:** Lockout duration: 15 minutes
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AC-000005-fail.png)
+
+**Script:** [STIG-ID-WN11-AC-000005.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AC-000005.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AC-000005-pass.png)
+
+---
+
+### WN11-AC-000010 — Account Lockout Threshold
+
+**Rule:** Account lockout threshold must be 3 or fewer invalid logon attempts.
+**Method:** secedit — `LockoutBadCount = 3`
+**Before:** Lockout threshold not configured (0)
+**After:** Lockout threshold: 3 attempts
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AC-000010-fail.png)
+
+**Script:** [STIG-ID-WN11-AC-000010.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AC-000010.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AC-000010-pass.png)
+
+---
+
+### WN11-AC-000015 — Reset Account Lockout Counter
+
+**Rule:** Reset account lockout counter must be 15 minutes or greater.
+**Method:** secedit — `ResetLockoutCount = 15`
+**Before:** Reset counter not configured (0 minutes)
+**After:** Reset counter: 15 minutes
+**Result:** ✅ Pass
+**Notes:** Covered by the same secedit pass as WN11-AC-000005.
+
+**Script:** *(shared — see [STIG-ID-WN11-AC-000005.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AC-000005.ps1))*
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-AC-000015-pass.png)
+
+---
+
+## Component Configuration
+
+### WN11-CC-000005 — Camera Access from Lock Screen
+
+**Rule:** Camera access from the lock screen must be disabled.
+**Registry:** `HKLM:\SOFTWARE\Policies\Microsoft\Windows\Personalization`
+**Value:** `NoLockScreenCamera = 1`
+**Before:** Registry key did not exist (path not found)
+**After:** `NoLockScreenCamera = 1`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-CC-000005-fail.png)
+
+**Script:** [STIG-ID-WN11-CC-000005.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-CC-000005.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-CC-000005-pass.png)
+
+---
+
+### WN11-CC-000197 — Voice Activation Above Lock Screen
+
+**Rule:** Windows apps must not be activated by voice while the system is locked.
+**Registry:** `HKLM:\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy`
+**Value:** `LetAppsActivateWithVoiceAboveLock = 2` (Force Deny)
+**Before:** Registry key did not exist (path not found)
+**After:** `LetAppsActivateWithVoiceAboveLock = 2`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-CC-000197-fail.png)
+
+**Script:** [STIG-ID-WN11-CC-000197.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-CC-000197.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-CC-000197-pass.png)
+
+---
+
+### WN11-CC-000030 — Autoplay for Non-Volume Devices
+
+**Rule:** Autoplay must be turned off for non-volume devices (e.g. cameras, phones).
+**Registry:** `HKLM:\SOFTWARE\Policies\Microsoft\Windows\Explorer`
+**Value:** `NoAutoplayfornonVolume = 1`
+**Before:** Registry key did not exist (path not found)
+**After:** `NoAutoplayfornonVolume = 1`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-CC-000030-fail.png)
+
+**Script:** [STIG-ID-WN11-CC-000030.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-CC-000030.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-CC-000030-pass.png)
+
+---
+
+## Security Options
+
+### WN11-SO-000005 — Guest Account Disabled
+
+**Rule:** The built-in Guest account must be disabled.
+**Method:** `Disable-LocalUser -Name "Guest"`
+**Before:** Guest account enabled
+**After:** Guest account disabled (Enabled = False)
+**Result:** ✅ Pass
+
+![Verify: Before](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-SO-000005-before.png)
+
+**Script:** [STIG-ID-WN11-SO-000005.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-SO-000005.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-SO-000005-pass.png)
+
+---
+
+### WN11-SO-000070 — UAC Elevation Prompt
+
+**Rule:** UAC must prompt administrators for credentials on the secure desktop.
+**Registry:** `HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System`
+**Value:** `ConsentPromptBehaviorAdmin = 1`
+**Before:** `ConsentPromptBehaviorAdmin = 5` (prompt for consent, not credentials)
+**After:** `ConsentPromptBehaviorAdmin = 1` (prompt for credentials on secure desktop)
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-SO-000070-fail.png)
+
+**Script:** [STIG-ID-WN11-SO-000070.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-SO-000070.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-SO-000070-pass.png)
+
+---
+
+### WN11-SO-000075 — Unencrypted Passwords to Third-Party SMB Servers
+
+**Rule:** Unencrypted passwords must not be sent to third-party SMB servers.
+**Registry:** `HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters`
+**Value:** `EnablePlainTextPassword = 0`
+**Before:** `EnablePlainTextPassword` not configured (value not present)
+**After:** `EnablePlainTextPassword = 0`
+**Result:** ✅ Pass
+
+![Verify: Fail](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-SO-000075-fail.png)
+
+**Script:** [STIG-ID-WN11-SO-000075.ps1](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-SO-000075.ps1)
+
+![Verify: Pass](https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/Win11%20STIG%20Project/screenshots/WN11-SO-000075-pass.png)
 
 ---
 
