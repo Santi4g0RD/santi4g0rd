@@ -28,20 +28,20 @@ Feel free to explore my projects to see how I approach security from both operat
 
 Implemented and verified 12 DISA STIG security controls on a Windows 11 Azure VM using PowerShell. Each script targets a specific STIG finding, applies the required configuration via registry or security policy, and was validated before and after execution.
 
-| # | STIG-ID | Category | Control | Result |
-|---|---------|----------|---------|--------|
-| 1 | WN11-AU-000500 | Audit & Logging | Application event log ≥ 32768 KB | ✅ Pass |
-| 2 | WN11-AU-000505 | Audit & Logging | Security event log ≥ 1024000 KB | ✅ Pass |
-| 3 | WN11-AU-000510 | Audit & Logging | System event log ≥ 32768 KB | ✅ Pass |
-| 4 | WN11-AC-000005 | Account Policy | Account lockout duration ≥ 15 min | ✅ Pass |
-| 5 | WN11-AC-000010 | Account Policy | Account lockout threshold ≤ 3 attempts | ✅ Pass |
-| 6 | WN11-AC-000015 | Account Policy | Reset lockout counter ≥ 15 min | ✅ Pass |
-| 7 | WN11-CC-000005 | Component Config | Disable camera access from lock screen | ✅ Pass |
-| 8 | WN11-CC-000197 | Component Config | Disable voice activation above lock screen | ✅ Pass |
-| 9 | WN11-SO-000005 | Security Options | Disable built-in Guest account | ✅ Pass |
-| 10 | WN11-SO-000070 | Security Options | UAC credential prompt on secure desktop | ✅ Pass |
-| 11 | WN11-CC-000030 | Component Config | Disable Autoplay for non-volume devices | ✅ Pass |
-| 12 | WN11-SO-000075 | Security Options | Block unencrypted passwords to SMB servers | ✅ Pass |
+| # | STIG-ID | Category | Control | Script | Result |
+|---|---------|----------|---------|--------|--------|
+| 1 | WN11-AU-000500 | Audit & Logging | Application event log ≥ 32768 KB | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AU-000500.ps1) | ✅ Pass |
+| 2 | WN11-AU-000505 | Audit & Logging | Security event log ≥ 1024000 KB | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AU-000505.ps1) | ✅ Pass |
+| 3 | WN11-AU-000510 | Audit & Logging | System event log ≥ 32768 KB | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AU-000510.ps1) | ✅ Pass |
+| 4 | WN11-AC-000005 | Account Policy | Account lockout duration ≥ 15 min | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AC-000005.ps1) | ✅ Pass |
+| 5 | WN11-AC-000010 | Account Policy | Account lockout threshold ≤ 3 attempts | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AC-000010.ps1) | ✅ Pass |
+| 6 | WN11-AC-000015 | Account Policy | Reset lockout counter ≥ 15 min | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-AC-000015.ps1) | ✅ Pass |
+| 7 | WN11-CC-000005 | Component Config | Disable camera access from lock screen | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-CC-000005.ps1) | ✅ Pass |
+| 8 | WN11-CC-000197 | Component Config | Disable voice activation above lock screen | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-CC-000197.ps1) | ✅ Pass |
+| 9 | WN11-SO-000005 | Security Options | Disable built-in Guest account | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-SO-000005.ps1) | ✅ Pass |
+| 10 | WN11-SO-000070 | Security Options | UAC credential prompt on secure desktop | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-SO-000070.ps1) | ✅ Pass |
+| 11 | WN11-CC-000030 | Component Config | Disable Autoplay for non-volume devices | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-CC-000030.ps1) | ✅ Pass |
+| 12 | WN11-SO-000075 | Security Options | Block unencrypted passwords to SMB servers | [📄](https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/Win11%20STIG%20Project/Window%2011%20STIG%20Scripts/STIG-ID-WN11-SO-000075.ps1) | ✅ Pass |
 
 ---
 
