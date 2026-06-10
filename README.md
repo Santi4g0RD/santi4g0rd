@@ -19,7 +19,7 @@ Feel free to explore my projects to see how I approach security from both operat
 
 ## 🔒 DISA STIG Compliance & System Hardening
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: System Hardening — 12 Windows 11 Controls Automated with PowerShell on Azure</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: System Hardening — Windows 11 Controls Automated with PowerShell on Azure</a>
 
 ## 🛡️ Vulnerability Management Projects (Nessus + Azure)
 
