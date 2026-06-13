@@ -37,6 +37,7 @@ Automated hardening scripts tested on live Azure VMs with before/after verificat
 
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win25%20Server%20STIG%20Project">DISA STIG: Windows Server 2025 — 33 Controls Automated with PowerShell on Azure Active Directory DC</a>
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: Windows 11 — Controls Automated with PowerShell on Azure</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Ubuntu%20Server%20STIG%20Project">DISA STIG: Ubuntu Server 24.04 — 10 Controls Automated with Bash on Azure</a>
 
 ---
 
