@@ -4,34 +4,42 @@
 
 📄 [1-Page Resume](./Santiago_Ruiz_Diaz_Resume.pdf) &nbsp;|&nbsp; 📋 [Full CV](./Santiago_Ruiz_Diaz_CV.pdf) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2/)
 
-I'm passionate about cybersecurity and driven to solve real-world security challenges through hands-on projects. With a focus on threat detection, incident response, and OT/ICS environments, I build and test practical solutions that reflect today's evolving threat landscape.
+Security Engineer intern with hands-on experience in threat hunting, incident response, SIEM/EDR analysis, and system hardening. I build labs that reflect real attack chains — then document findings as analyst-grade IR reports with containment and remediation recommendations.
 
-🔍 My work focuses on:
-- Threat detection & log analysis (SIEM use cases)
-- Incident response & attack simulation
+🔍 My work covers:
+- Threat hunting & incident investigation (Microsoft Sentinel, MDE, KQL)
+- Active Directory attack path analysis (BloodHound, SharpHound)
+- STIG compliance & automated system hardening (PowerShell, Bash)
+- Vulnerability management (Nessus, Azure)
 - OT/ICS & Building Management System (BMS) security
-- Vulnerability assessment & remediation
-- STIG compliance & system hardening
 
-Feel free to explore my projects to see how I approach security from both operational and technical perspectives.
+---
+
+## 🚨 Incident Response & Threat Hunting
+
+Full-chain investigations documented as IR reports — hypothesis, KQL hunt queries, analyst observations, timeline, impact assessment, MITRE ATT&CK mapping, and containment/remediation recommendations.
+
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Rocky-Clinic-OpenEMR">**IR-2026-0214-EHR** — Rocky Clinic OpenEMR Breach: Full-Chain Linux/Docker Compromise, 10-Day Dwell, Patient Data Exfiltration via Discord Webhook</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Signal-After-Noise">**IR-2025-1213-C2** — Signal After The Noise: Post-Intrusion Hunt, Dual Cloudflare-Fronted C2, LSASS Dump, Live Desktop Confirmed</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-TOR">**IR-2026-0526-TOR** — TOR Browser Detection: Policy Violation, Portable Install, Active Circuit, In-Session Artifact Concealment</a>
+
+---
+
+## 🔴 Active Directory & Offensive Security
+
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/BloodHound-AD-Lab">BloodHound AD Attack Path Mapping — DCSync Rights, GPO Abuse, Shadow Credentials, Shortest Path to Domain Admin on Windows Server 2025</a>
 
 ---
 
 ## 🔒 DISA STIG Compliance & System Hardening
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: System Hardening — Windows 11 Controls Automated with PowerShell on Azure</a>
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win25%20Server%20STIG%20Project">DISA STIG: System Hardening — Windows Server 2025 Controls Automated with PowerShell on Azure (Active Directory DC)</a>
+Automated hardening scripts tested on live Azure VMs with before/after verification screenshots.
 
-## 🔴 Active Directory & Offensive Security
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win25%20Server%20STIG%20Project">DISA STIG: Windows Server 2025 — 33 Controls Automated with PowerShell on Azure Active Directory DC</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: Windows 11 — Controls Automated with PowerShell on Azure</a>
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/BloodHound-AD-Lab">BloodHound AD Attack Path Mapping — Active Directory Enumeration & Privilege Escalation Analysis on Windows Server 2025 DC</a>
+---
 
-## 🛡️ Vulnerability Management Projects (Nessus + Azure)
+## 🛡️ Vulnerability Management
 
-- <a href="https://github.com/Santi4g0RD/Vulnerability-Management-Program-Implementation/tree/main"> Vulnerability Management Program </a>
-
-## 🚨 Threat Hunting and Security Operations
-
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-TOR">Threat Hunt: TOR Browser Detection — Unauthorized Proxy Usage on Corporate Workstation</a>
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Signal-After-Noise">Threat Hunt: Signal After The Noise — Post-Intrusion Hunt, Dual C2, LSASS Dump</a>
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Rocky-Clinic-OpenEMR">Threat Hunt: Rocky Clinic OpenEMR Breach — Full-Chain Linux/Docker Compromise</a>
+- <a href="https://github.com/Santi4g0RD/Vulnerability-Management-Program-Implementation/tree/main">Vulnerability Management Program — Nessus + Azure</a>
