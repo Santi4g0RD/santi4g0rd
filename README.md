@@ -15,6 +15,20 @@ Security Engineer intern with hands-on experience in threat hunting, incident re
 
 ---
 
+## 🪵 Splunk SOC Lab
+
+<a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project"><img src="https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/splunk-project/credential-attack-detection/dashboards/soc-overview-dashboard.png" alt="SOC Overview dashboard — Splunk Home Lab" width="700"></a>
+
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project">Splunk Home Lab — Self-hosted Proxmox lab (OPNsense firewall/IDS + Splunk Enterprise), Windows (NetExec/SMB) and Linux (Hydra/SSH) brute force + password spray attacks, validated SPL detections with proof screenshots</a>
+
+---
+
+## ☁️ Microsoft Sentinel SOC Lab
+
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Microsoft-Sentinel">Microsoft Sentinel — 5 KQL Attack Map Workbooks: Malicious Inbound Flows, VM Auth Failures, Entra ID Sign-In Failures/Successes, Azure Resource Creation (live cyber range data)</a>
+
+---
+
 ## 🚨 Incident Response & Threat Hunting
 
 Full-chain investigations documented as IR reports — hypothesis, KQL hunt queries, analyst observations, timeline, impact assessment, MITRE ATT&CK mapping, and containment/remediation recommendations.
@@ -29,20 +43,6 @@ Full-chain investigations documented as IR reports — hypothesis, KQL hunt quer
 ## 🔴 Active Directory & Offensive Security
 
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/BloodHound-AD-Lab">BloodHound AD Attack Path Mapping — DCSync Rights, GPO Abuse, Shadow Credentials, Shortest Path to Domain Admin on Windows Server 2025</a>
-
----
-
-## ☁️ Microsoft Sentinel SOC Lab
-
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Microsoft-Sentinel">Microsoft Sentinel — 5 KQL Attack Map Workbooks: Malicious Inbound Flows, VM Auth Failures, Entra ID Sign-In Failures/Successes, Azure Resource Creation (live cyber range data)</a>
-
----
-
-## 🪵 Splunk SOC Lab
-
-<a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project"><img src="https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/splunk-project/credential-attack-detection/dashboards/soc-overview-dashboard.png" alt="SOC Overview dashboard — Splunk Home Lab" width="700"></a>
-
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project">Splunk Home Lab — Self-hosted Proxmox lab (OPNsense firewall/IDS + Splunk Enterprise), Windows (NetExec/SMB) and Linux (Hydra/SSH) brute force + password spray attacks, validated SPL detections with proof screenshots</a>
 
 ---
 
