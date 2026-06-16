@@ -32,9 +32,14 @@ Full-chain investigations documented as IR reports — hypothesis, KQL hunt quer
 
 ---
 
-## 🗺️ SIEM & Security Monitoring
+## ☁️ Microsoft Sentinel
 
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Microsoft-Sentinel">Microsoft Sentinel — 5 KQL Attack Map Workbooks: Malicious Inbound Flows, VM Auth Failures, Entra ID Sign-In Failures/Successes, Azure Resource Creation (live cyber range data)</a>
+
+---
+
+## 🪵 Splunk Home Lab
+
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project">Splunk Home Lab — Self-hosted Proxmox lab (OPNsense firewall/IDS + Splunk Enterprise), Windows (NetExec/SMB) and Linux (Hydra/SSH) brute force + password spray attacks, validated SPL detections with proof screenshots</a>
 
 ---
