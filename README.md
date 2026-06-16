@@ -40,6 +40,8 @@ Full-chain investigations documented as IR reports — hypothesis, KQL hunt quer
 
 ## 🪵 Splunk SOC Lab
 
+<a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project"><img src="https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/splunk-project/credential-attack-detection/dashboards/soc-overview-dashboard.png" alt="SOC Overview dashboard — Splunk Home Lab" width="700"></a>
+
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project">Splunk Home Lab — Self-hosted Proxmox lab (OPNsense firewall/IDS + Splunk Enterprise), Windows (NetExec/SMB) and Linux (Hydra/SSH) brute force + password spray attacks, validated SPL detections with proof screenshots</a>
 
 ---
