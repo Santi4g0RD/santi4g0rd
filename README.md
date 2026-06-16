@@ -20,6 +20,7 @@ Security Engineer intern with hands-on experience in threat hunting, incident re
 <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project"><img src="https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/splunk-project/credential-attack-detection/dashboards/soc-overview-dashboard.png" alt="SOC Overview dashboard — Splunk Home Lab" width="700"></a>
 
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project">Splunk Home Lab — Self-hosted Proxmox lab (OPNsense firewall/IDS + Splunk Enterprise), Windows (NetExec/SMB) and Linux (Hydra/SSH) brute force + password spray attacks, validated SPL detections with proof screenshots</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/atomic-red-team">Atomic Red Team — 9 MITRE ATT&CK techniques (Credential Access, Discovery, Execution, Persistence) simulated with Invoke-AtomicRedTeam and validated against Sysmon + Splunk telemetry, including two real detection gaps found and fixed</a>
 
 ---
 
