@@ -26,7 +26,7 @@ Security Engineer intern with hands-on experience in threat hunting, incident re
 
 ## ☁️ Microsoft Sentinel SOC Lab
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Microsoft-Sentinel">Microsoft Sentinel — 5 KQL Attack Map Workbooks: Malicious Inbound Flows, VM Auth Failures, Entra ID Sign-In Failures/Successes, Azure Resource Creation (live cyber range data)</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Microsoft-Sentinel">Microsoft Sentinel</a> — 5 KQL attack map workbooks: malicious inbound flows, VM auth failures, Entra ID sign-in failures/successes, Azure resource creation (live cyber range data)
 
 ---
 
