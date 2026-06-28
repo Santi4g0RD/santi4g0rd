@@ -7,8 +7,9 @@
 Security Engineer intern with hands-on experience in threat hunting, incident response, SIEM/EDR analysis, and system hardening. I build labs that reflect real attack chains — then document findings as analyst-grade IR reports with containment and remediation recommendations.
 
 🔍 My work covers:
+- Detection engineering & SOC operations (Splunk, Wazuh EDR, Zeek NSM, Suricata)
 - Threat hunting & incident investigation (Microsoft Sentinel, MDE, KQL)
-- Active Directory attack path analysis (BloodHound, SharpHound)
+- Active Directory attack path analysis (BloodHound, SharpHound, Impacket)
 - STIG compliance & automated system hardening (PowerShell, Bash)
 - Vulnerability management (Nessus, Azure)
 - OT/ICS & Building Management System (BMS) security
