@@ -4,7 +4,7 @@
 
 📄 [1-Page Resume](./Santiago_Ruiz_Diaz_Resume.pdf) &nbsp;|&nbsp; 📋 [Full CV](./Santiago_Ruiz_Diaz_CV.pdf) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2/)
 
-Security Engineer intern with hands-on experience in threat hunting, incident response, SIEM/EDR analysis, and system hardening. I build labs that reflect real attack chains — then document findings as analyst-grade IR reports with containment and remediation recommendations.
+Security Engineer intern focused on detection engineering and SOC operations. I run full attack chains in a self-hosted Proxmox lab — AD privilege escalation, credential attacks, persistence — then validate detections across Splunk, Wazuh EDR, Zeek NSM, and Suricata, and document findings as analyst-grade IR reports. Also work with Microsoft Sentinel, DISA STIG hardening, and vulnerability management.
 
 🔍 My work covers:
 - Detection engineering & SOC operations (Splunk, Wazuh EDR, Zeek NSM, Suricata)
