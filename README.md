@@ -43,7 +43,7 @@ Full-chain investigations documented as IR reports — hypothesis, KQL hunt quer
 
 ## 🔴 Active Directory & Offensive Security
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/BloodHound-AD-Lab">BloodHound AD Attack Path Mapping — DCSync Rights, GPO Abuse, Shadow Credentials, Shortest Path to Domain Admin on Windows Server 2025</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/BloodHound-AD-Lab">BloodHound AD Attack Path Mapping</a> — DCSync rights, GPO abuse, shadow credentials, shortest path to Domain Admin on WS2025
 
 ---
 
@@ -51,9 +51,9 @@ Full-chain investigations documented as IR reports — hypothesis, KQL hunt quer
 
 Automated hardening scripts tested on live Azure VMs with before/after verification screenshots and pre/post Nessus vulnerability scans.
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win25%20Server%20STIG%20Project">DISA STIG: Windows Server 2025 — 36 Controls Automated with PowerShell on Azure Active Directory DC</a>
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: Windows 11 — 12 Controls Automated with PowerShell on Azure</a>
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Ubuntu%20Server%20STIG%20Project">DISA STIG: Ubuntu Server 24.04 — 10 Controls Automated with Bash on Azure</a>
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win25%20Server%20STIG%20Project">DISA STIG: Windows Server 2025</a> — 36 controls automated with PowerShell on Azure AD DC
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Win11%20STIG%20Project">DISA STIG: Windows 11</a> — 12 controls automated with PowerShell on Azure
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Ubuntu%20Server%20STIG%20Project">DISA STIG: Ubuntu Server 24.04</a> — 10 controls automated with Bash on Azure
 
 ---
 
