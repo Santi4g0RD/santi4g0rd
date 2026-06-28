@@ -38,7 +38,6 @@ Full-chain investigations documented as IR reports — hypothesis, KQL hunt quer
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Rocky-Clinic-OpenEMR">**IR-2026-0214-EHR**</a> — Rocky Clinic OpenEMR: full-chain Linux/Docker compromise, 10-day dwell, patient data exfiltrated via Discord webhook
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Signal-After-Noise">**IR-2025-1213-C2**</a> — Post-intrusion hunt: dual Cloudflare-fronted C2, LSASS dump, live desktop confirmed
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-TOR">**IR-2026-0526-TOR**</a> — TOR browser detection: portable install, active circuit, in-session artifact concealment
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/Threat-Hunt-Persistent-Ghost">**Operation Persistent Ghost**</a> *(coming soon)* — PowerShell execution, scheduled task + registry run key persistence via Atomic Red Team; detected in Microsoft Sentinel
 
 ---
 
