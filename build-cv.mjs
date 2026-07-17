@@ -70,7 +70,7 @@ const doc = new Document({
 
       // TITLE
       new Paragraph({
-        children: [new TextRun({ text: "OT/ICS Cybersecurity Analyst  |  Security+ · CySA+ · PenTest+  |  15+ Years Critical Infrastructure", bold: true, size: 20, color: BLUE, font: FONT })],
+        children: [new TextRun({ text: "OT/ICS Systems Engineer  |  Building Automation & Controls  |  Security+ · CySA+ · PenTest+  |  15+ Years Critical Infrastructure", bold: true, size: 20, color: BLUE, font: FONT })],
         spacing: spacing(0, 60),
       }),
 
@@ -89,15 +89,15 @@ const doc = new Document({
       // PROFESSIONAL SUMMARY
       sectionHeader("Professional Summary"),
       new Paragraph({
-        children: [new TextRun({ text: "Cybersecurity professional with 15+ years of hands-on experience operating Operational Technology (OT) and Industrial Control Systems (ICS) — including Building Management Systems (BMS), SCADA-like controllers, PLC-driven systems, and BACnet networks — now applying that field-level OT knowledge directly in cybersecurity operations.", size: 19, font: FONT })],
+        children: [new TextRun({ text: "Operational Technology (OT) and Industrial Control Systems (ICS) professional with 15+ years of hands-on experience maintaining and troubleshooting Building Management Systems (BMS), SCADA-like controllers, PLC-driven automation (GCL+), and BACnet networks across a live, network-connected multi-building campus.", size: 19, font: FONT })],
         spacing: spacing(60, 60),
       }),
       new Paragraph({
-        children: [new TextRun({ text: "Most cybersecurity analysts have never touched a PLC or walked a server room monitoring a BACnet controller. I have — for 15+ years. That operational context shapes how I approach threat detection, anomaly analysis, and incident response across IT and OT environments.", size: 19, font: FONT })],
+        children: [new TextRun({ text: "That field-level ownership — system monitoring, PLC logic repair, configuration changes, and access control administration across HVAC, boiler, and electrical infrastructure — is paired with a security engineering skill set most controls engineers don't have: vulnerability management, threat hunting, and endpoint detection across a ~200-server enterprise environment.", size: 19, font: FONT })],
         spacing: spacing(0, 60),
       }),
       new Paragraph({
-        children: [new TextRun({ text: "Currently working as Security Engineer I at LOGN Pacific, delivering hands-on projects in Microsoft Sentinel, Defender for Endpoint (EDR), Tenable vulnerability management, and SOC threat hunting — while completing my B.S. in Cybersecurity & Information Assurance at Western Governors University. Pursuing a Master's degree in Cybersecurity with enrollment planned for mid-2026.", size: 19, font: FONT })],
+        children: [new TextRun({ text: "Currently working as Security Engineer I at LOGN Pacific, delivering hands-on projects in Tenable vulnerability management, Microsoft Sentinel, and Defender for Endpoint — while completing my B.S. in Cybersecurity & Information Assurance at Western Governors University. Pursuing a Master's degree in Cybersecurity with enrollment planned for mid-2026.", size: 19, font: FONT })],
         spacing: spacing(0, 80),
       }),
 
@@ -105,7 +105,7 @@ const doc = new Document({
       sectionHeader("Core Competencies"),
       new Paragraph({
         children: [new TextRun({
-          text: "SIEM  ·  Threat Hunting  ·  SOC Operations  ·  Alert Triage  ·  Incident Response  ·  Log Analysis  ·  Vulnerability Assessment  ·  EDR  ·  Endpoint Detection & Response  ·  OT/ICS Security  ·  SCADA  ·  PLC  ·  GCL+  ·  BACnet  ·  BMS  ·  IEC 62443  ·  NIST 800-82  ·  NIST CSF  ·  NIST 800-53  ·  IT/OT Convergence  ·  Network Segmentation  ·  Purdue Model  ·  Zero Trust  ·  Privileged Access Management  ·  Access Control  ·  System Hardening  ·  Risk Assessment  ·  Python  ·  PowerShell  ·  Bash  ·  KQL  ·  Microsoft Sentinel  ·  Microsoft Defender for Endpoint  ·  Microsoft 365 Defender  ·  Tenable / Nessus  ·  Azure Security  ·  MITRE ATT&CK  ·  DISA STIG",
+          text: "OT/ICS Operations  ·  Building Management Systems (BMS)  ·  SCADA  ·  PLC Programming & Troubleshooting  ·  GCL+  ·  BACnet  ·  HVAC & Electrical Infrastructure  ·  IEC 62443  ·  NIST 800-82  ·  IT/OT Convergence  ·  Network Segmentation  ·  Purdue Model  ·  System Monitoring & Fault Diagnosis  ·  Access Control  ·  Privileged Access Management  ·  Change Management  ·  Risk Assessment  ·  SIEM  ·  Threat Hunting  ·  Incident Response  ·  Vulnerability Assessment  ·  EDR  ·  Zero Trust  ·  System Hardening  ·  Python  ·  PowerShell  ·  Bash  ·  KQL  ·  Microsoft Sentinel  ·  Microsoft Defender for Endpoint  ·  Tenable / Nessus  ·  Azure Security  ·  MITRE ATT&CK  ·  DISA STIG  ·  NIST CSF  ·  NIST 800-53",
           size: 19, font: FONT
         })],
         spacing: spacing(60, 80),
@@ -154,16 +154,43 @@ const doc = new Document({
       // EXPERIENCE
       sectionHeader("Experience"),
 
+      // CCM
+      new Paragraph({
+        children: [new TextRun({ text: "County College of Morris", bold: true, size: 22, font: FONT })],
+        spacing: spacing(60, 20),
+      }),
+      para([
+        new TextRun({ text: "HVAC & Building Automation Systems Specialist  |  OT/ICS Operations  ·  November 2010 – Present  (15+ years)", size: 19, color: GRAY, font: FONT }),
+      ], 0, 60),
+      new Paragraph({
+        children: [new TextRun({ text: "Technical owner of critical building infrastructure across a network-connected, multi-building campus — operating and maintaining OT/ICS systems, SCADA-like controllers, BACnet-connected devices, and PLC-driven building automation across HVAC, boilers, and electrical infrastructure.", size: 19, font: FONT })],
+        spacing: spacing(0, 60),
+      }),
+
+      subHeader("PLC Scripting & System Maintenance"),
+      bullet("Maintained, troubleshot, and repaired GCL+ PLC scripts across SCADA-like controllers and building automation systems — diagnosing and resolving logic errors and escalating out-of-scope issues to vendor/engineering teams."),
+      bullet("Made configuration changes and system adjustments via BMS client terminal to maintain operational integrity across HVAC, boilers, and electrical infrastructure — minimizing downtime and unplanned outages."),
+
+      subHeader("System Monitoring & Incident Escalation"),
+      bullet("Monitored operational integrity of networked control systems across 15+ campus buildings, identifying anomalous behavior and system faults across BACnet-connected devices and electronic controls."),
+      bullet("Identified and escalated potential risks and unresolvable issues to appropriate teams, supporting system reliability and continuity of campus operations."),
+      bullet("Applied IT/OT convergence and network segmentation principles consistent with IEC 62443 and NIST 800-82 to isolate and protect building automation systems from the broader campus network."),
+      bullet("Collaborated with leadership to align OT operations with organizational change management and security policies."),
+
+      subHeader("Access Control & Identity Management"),
+      bullet("Administered access control for building automation systems via BMS client terminal — provisioning, modifying, and revoking user permissions using least-privilege and privileged access management (PAM) principles."),
+      bullet("Conducted periodic access reviews to ensure authorization aligned with current roles and responsibilities."),
+
       // LOGN Pacific header
       new Paragraph({
         children: [new TextRun({ text: "LOGN Pacific", bold: true, size: 22, font: FONT })],
-        spacing: spacing(60, 20),
+        spacing: spacing(120, 20),
       }),
       para([
         new TextRun({ text: "Security Engineer I  ·  March 2026 – Present", size: 19, color: GRAY, font: FONT }),
       ], 0, 60),
       new Paragraph({
-        children: [new TextRun({ text: "Hands-on security engineering role delivering threat detection, vulnerability management, incident investigation, and SOC operations across Microsoft Azure, Microsoft Sentinel, Defender for Endpoint (EDR), and Tenable.", size: 19, font: FONT })],
+        children: [new TextRun({ text: "Security engineering role applying an OT-informed operational lens to threat detection, vulnerability management, and incident investigation across Microsoft Azure, Microsoft Sentinel, Defender for Endpoint (EDR), and Tenable.", size: 19, font: FONT })],
         spacing: spacing(0, 60),
       }),
 
@@ -184,32 +211,6 @@ const doc = new Document({
       bullet("Confirmed unauthorized TOR browser usage on a corporate Azure Windows 11 endpoint via KQL across DeviceFileEvents, DeviceProcessEvents, and DeviceNetworkEvents."),
       bullet("Detected full TOR circuit — tor.exe to external relay on port 9001, firefox.exe from non-standard Desktop path to evade registry traces, suspicious file created and deleted to conceal activity."),
       bullet("Mapped to MITRE T1090.003 (proxy), T1204 (user execution), T1036 (masquerading). Delivered incident report with device isolation, HR/legal escalation, and perimeter block of TOR ports 9001–9151."),
-
-      // CCM
-      new Paragraph({
-        children: [new TextRun({ text: "County College of Morris", bold: true, size: 22, font: FONT })],
-        spacing: spacing(120, 20),
-      }),
-      para([
-        new TextRun({ text: "HVAC & Building Automation Systems Specialist  |  OT/ICS Operations  ·  November 2010 – Present  (15+ years)", size: 19, color: GRAY, font: FONT }),
-      ], 0, 60),
-      new Paragraph({
-        children: [new TextRun({ text: "Operating and maintaining critical building infrastructure across a network-connected campus — working directly with OT/ICS systems, SCADA-like controllers, BACnet-connected devices, and PLC-driven building automation across HVAC, boilers, and electrical infrastructure.", size: 19, font: FONT })],
-        spacing: spacing(0, 60),
-      }),
-
-      subHeader("System Monitoring & Incident Escalation"),
-      bullet("Monitored operational integrity of networked control systems across 15+ campus buildings, identifying anomalous behavior and system faults across BACnet-connected devices and electronic controls."),
-      bullet("Identified and escalated potential risks to appropriate teams in alignment with organizational change management and security policies — supporting campus operational continuity."),
-      bullet("Applied IT/OT convergence and network segmentation principles consistent with IEC 62443 and NIST 800-82 to isolate and protect building automation systems."),
-
-      subHeader("PLC Scripting & System Maintenance"),
-      bullet("Maintained, troubleshot, and repaired GCL+ PLC scripts across SCADA-like controllers and building automation systems — resolving logic errors and escalating out-of-scope issues."),
-      bullet("Made configuration changes via BMS client terminal to maintain operational integrity across HVAC, boilers, and electrical infrastructure."),
-
-      subHeader("Access Control & Identity Management"),
-      bullet("Administered access control for building automation systems via BMS client terminal — provisioning, modifying, and revoking user permissions using least-privilege and privileged access management (PAM) principles."),
-      bullet("Conducted periodic access reviews to ensure authorization aligned with current roles and responsibilities."),
 
       // PROJECTS
       sectionHeader("Projects"),

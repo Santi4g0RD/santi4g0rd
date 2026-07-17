@@ -1,18 +1,18 @@
 ## Hi there 👋
 
-### <a href="https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2/">Santiago A. Ruiz Diaz</a> | IT & Cybersecurity Portfolio
+### <a href="https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2/">Santiago A. Ruiz Diaz</a> | OT/ICS Systems Engineer & Cybersecurity Portfolio
 
 📄 [1-Page Resume](./Santiago_Ruiz_Diaz_Resume.pdf) &nbsp;|&nbsp; 📋 [Full CV](./Santiago_Ruiz_Diaz_CV.pdf) &nbsp;|&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/santiago-a-ruiz-diaz-4aa418b2/)
 
-Security Engineer intern focused on detection engineering and SOC operations. I run full attack chains in a self-hosted Proxmox lab — AD privilege escalation, credential attacks, persistence — then validate detections across Splunk, Wazuh EDR, Zeek NSM, and Suricata, and document findings as analyst-grade IR reports. Also work with Microsoft Sentinel, DISA STIG hardening, and vulnerability management.
+OT/ICS professional with 15+ years of hands-on experience maintaining and troubleshooting Building Management Systems (BMS), SCADA-like controllers, PLC-driven automation (GCL+), and BACnet networks across a live, network-connected multi-building campus — paired with a security engineering skill set built as a Security Engineer at LOGN Pacific. I run full attack chains in a self-hosted Proxmox lab — AD privilege escalation, credential attacks, persistence — then validate detections across Splunk, Wazuh EDR, Zeek NSM, and Suricata, and document findings as analyst-grade IR reports.
 
 🔍 My work covers:
+- OT/ICS & Building Management System (BMS) operations — SCADA-like controllers, PLC (GCL+), BACnet
 - Detection engineering & SOC operations (Splunk, Wazuh EDR, Zeek NSM, Suricata)
 - Threat hunting & incident investigation (Microsoft Sentinel, MDE, KQL)
 - Active Directory attack path analysis (BloodHound, SharpHound, Impacket)
 - STIG compliance & automated system hardening (PowerShell, Bash)
 - Vulnerability management (Nessus, Azure)
-- OT/ICS & Building Management System (BMS) security
 
 ---
 
