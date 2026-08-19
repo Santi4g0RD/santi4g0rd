@@ -22,6 +22,9 @@ OT/ICS professional with 15+ years of hands-on experience maintaining and troubl
 
 Full-topology walkthrough (verification, live troubleshooting, build notes) → <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/lab-infrastructure">`lab-infrastructure/`</a>
 
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/ot-ics-lab">OT/ICS Detection Lab</a> — Purdue-model ICS build (GRFICSv2 process simulation + OpenPLC + ScadaBR HMI) on isolated VLANs, Level 0-2 Modbus chain verified end-to-end; attack simulation and detection validation in progress
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/security-onion">Security Onion</a> — second SIEM/NSM platform (Elastic + Zeek + Suricata) stood up alongside Splunk with no license gating; found and fixed a 25-day-dead Zeek sensor and a hidden 3.5TB storage pool along the way
+
 ---
 
 ## 🪵 Splunk SOC Lab
@@ -30,8 +33,6 @@ Full-topology walkthrough (verification, live troubleshooting, build notes) → 
 
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/credential-attack-detection">Credential Attack Detection</a> — SMB + SSH brute force & spray on a 4-VLAN Proxmox lab; validated across Wazuh EDR, Splunk, Suricata, and Zeek NSM
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/ad-privesc-lab">AD Privilege Escalation Lab</a> — BloodHound → Kerberoasting → DCSync → Golden Ticket on live AD; 12 MITRE techniques, 4 detection layers | <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/splunk-project/ad-privesc-lab/INCIDENT-REPORT.md">IR-2026-001</a>
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/ot-ics-lab">OT/ICS Detection Lab</a> — Purdue-model ICS build (GRFICSv2 process simulation + OpenPLC + ScadaBR HMI) on isolated VLANs, Level 0-2 Modbus chain verified end-to-end; attack simulation and detection validation in progress
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/security-onion">Security Onion</a> — second SIEM/NSM platform (Elastic + Zeek + Suricata) stood up alongside Splunk with no license gating; found and fixed a 25-day-dead Zeek sensor and a hidden 3.5TB storage pool along the way
 
 ---
 
