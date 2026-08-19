@@ -16,7 +16,7 @@ OT/ICS professional with 15+ years of hands-on experience maintaining and troubl
 
 ---
 
-## 🗺️ Lab Topology
+## 🗺️ Lab Topology — Purdue Model (IT + OT/ICS + BACnet)
 
 <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/lab-infrastructure"><img src="https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/splunk-project/lab-infrastructure/screenshots/soclab_topology_current.svg" alt="Full SOC lab topology — 7 VLANs, 3-node Proxmox cluster, IT + OT/ICS + BACnet" width="700"></a>
 
