@@ -20,9 +20,9 @@ OT/ICS professional with 15+ years of hands-on experience maintaining and troubl
 
 <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/lab-infrastructure"><img src="https://raw.githubusercontent.com/Santi4g0RD/SOC-Analyst-Projects/main/splunk-project/lab-infrastructure/screenshots/soclab_topology_current.svg" alt="Full SOC lab topology — 7 VLANs, 3-node Proxmox cluster, IT + OT/ICS + BACnet" width="700"></a>
 
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/splunk-project/lab-infrastructure/topology-walkthrough.md">Full Topology Walkthrough</a> — live, screenshot-by-screenshot verification of every VLAN and host post-outage; found and fixed two real infrastructure problems along the way
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/blob/main/splunk-project/lab-infrastructure/topology-walkthrough.md">Full Topology Walkthrough</a> — live, screenshot-by-screenshot verification of every VLAN and host
 - <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/ot-ics-lab">OT/ICS Detection Lab</a> — Purdue-model ICS build (GRFICSv2 process simulation + OpenPLC + ScadaBR HMI) on isolated VLANs, Level 0-2 Modbus chain verified end-to-end; attack simulation and detection validation in progress
-- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/security-onion">Security Onion</a> — second SIEM/NSM platform (Elastic + Zeek + Suricata) stood up alongside Splunk with no license gating; found and fixed a 25-day-dead Zeek sensor and a hidden 3.5TB storage pool along the way
+- <a href="https://github.com/Santi4g0RD/SOC-Analyst-Projects/tree/main/splunk-project/security-onion">Security Onion</a> — second SIEM/NSM platform (Elastic + Zeek + Suricata) stood up alongside Splunk with no license gating
 
 ---
 
